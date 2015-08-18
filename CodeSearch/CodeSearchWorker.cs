@@ -109,7 +109,10 @@ namespace CodeSearch
                     .Distinct()
                     .Except(this.identifiedConnectionStrings);
 
-                var x = newConnectionStrings.ToArray();
+                if (newConnectionStrings.Any() == false)
+                {
+                    return LongDelay;
+                }
 
                 foreach (var connStr in newConnectionStrings)
                 {
