@@ -134,7 +134,8 @@ namespace CodeSearch.Notifier
             body.AppendLine(string.Format(" - Storage key: {0}...", cloudAccount.Credentials.ExportBase64EncodedKey().Substring(0, 7)));
             body.AppendLine();
             body.AppendLine("Here's a blog post from Scott Hanselman on how to keep the connection string in Azure: http://bit.ly/1NCcAN6");
-            body.AppendLine("You can respond to this email or contact me on twitter @sluu99 to unsubscribe from these messages, or if you need help with connection string stuff in general.");
+            body.AppendLine("Let me know if you want to unsubscribe from these messages, or just need help with connection string stuff in general.");
+            body.AppendLine("You can respond to this email or contact me on twitter @sluu99.");
             body.AppendLine();
             body.AppendLine("Good luck!");
             body.AppendLine("- Steven");
