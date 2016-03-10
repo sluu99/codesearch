@@ -147,9 +147,9 @@ namespace CodeSearch.Notifier
             var credentials = new NetworkCredential("api", mailgunApiKey);
             var postBody = new Dictionary<string, string>
             {
-                { "from", "sluu99@gmail.com" },
+                { "from", "steven@luu.io" },
                 { "to", toEmail },
-                { "bcc", "sluu99@gmail.com" },
+                { "bcc", "steven@luu.io" },
                 { "subject", subject },
                 { "text", body.ToString() },
             };
