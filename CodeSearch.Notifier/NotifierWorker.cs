@@ -149,7 +149,7 @@ namespace CodeSearch.Notifier
             {
                 { "from", "steven@luu.io" },
                 { "to", toEmail },
-                { "bcc", "steven@luu.io" },
+                { "bcc", "stluu@outlook.com" },
                 { "subject", subject },
                 { "text", body.ToString() },
             };
